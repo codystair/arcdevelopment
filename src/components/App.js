@@ -1,12 +1,14 @@
 import Header from './Header'
+import { ThemeProvider } from '@material-ui/core/styles'
+import theme from './ui/Theme'
 
 function App() {
   return (
-    <div className="App">
+    <ThemeProvider theme={theme}>
       <Header />
       Hello!
-    </div>
-  );
+    </ThemeProvider>
+  )
 }
 
-export default App;
+export default App
