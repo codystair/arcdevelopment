@@ -16,7 +16,7 @@ function ElevationScroll(props) {
   })
 }
 
-export default function Headers(props) {
+export default function Header() {
   return (
     <ElevationScroll>
       <AppBar position="fixed">
